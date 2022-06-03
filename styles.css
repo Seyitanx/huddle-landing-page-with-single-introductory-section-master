@@ -1,0 +1,85 @@
+body {
+  background-color: #674baf;
+}
+
+h1,
+p {
+  color: white;
+}
+.button a{
+  border-radius: 30px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: #674baf;
+  text-decoration: none;
+  font-size: 15px;
+  box-shadow: 0 5px 5px 0 rgb(49, 47, 47);
+}
+.logo {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  width: 200px;
+}
+.socials{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.socials a{
+   padding: 5px 9px;
+     border-radius: 30px;
+     width: 35px;
+    border: 1px solid white;
+    margin-left: 10px;
+    color:white;
+}
+@media (max-width: 585px) {
+.button{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  .paragraph {
+    text-align: center;
+    
+  }
+  .socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+ 
+  }
+ 
+  .instagram{
+     padding: 5px 9px;
+     border-radius: 30px;
+     width: 35px;
+    border: 1px solid white;
+    margin-left: 10px;
+    color:white;
+  }
+.twitter{
+  padding: 5px 9px;
+     border-radius: 30px;
+     width: 35px;
+    border: 1px solid white;
+    margin-left: 10px;
+    color: white;
+}
+ .facebook{
+   padding: 5px 9px;
+     border-radius: 30px;
+     width: 35px;
+    border: 1px solid white;
+    margin-left: 10px;
+    color: white;
+ } 
+}
